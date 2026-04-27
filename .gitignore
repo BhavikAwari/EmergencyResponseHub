@@ -1,0 +1,14 @@
+# Dependencies - NEVER upload these
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Next.js and build files
+.next/
+frontend/.next/
+dist/
+
+# Security: Keep Firebase keys private
+.env*.local
+frontend/.env*.local
+backend/.env*.local
